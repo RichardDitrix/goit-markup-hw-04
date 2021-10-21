@@ -238,6 +238,21 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* heero-section */
+.heero-background {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1600px;
+  border-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/businessolution.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .top-heero {
   background-color: var(--section-background-color);
   padding-top: 200px;
