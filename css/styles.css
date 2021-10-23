@@ -230,6 +230,7 @@ img {
 }
 .portfolio-focus {
   display: block;
+  text-decoration: none;
 }
 .portfolio-img-description {
   border-bottom: 1px solid #eeeeee;
