@@ -222,9 +222,14 @@ img {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
 }
-.portfolio-style-list:hover,
-.portfolio-style-list:focus {
+.portfolio-focus :hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portfolio-focus :focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portfolio-focus {
+  display: block;
 }
 .portfolio-img-description {
   border-bottom: 1px solid #eeeeee;
@@ -350,6 +355,25 @@ img {
 .duty-names {
   margin-bottom: 8px;
 }
+.social-list {
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+}
+.social-link {
+  fill: #083aec;
+}
+.svg-link {
+  width: 100%;
+  height: 100%;
+  background-color: #e01a1a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .work {
   font-size: 16px;
   line-height: 1.18;
