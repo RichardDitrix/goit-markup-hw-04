@@ -422,9 +422,13 @@ img {
 .client-item {
   width: 170px;
   height: 92px;
+  border-radius: 4px;
   border: 1px solid #afb1b8;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 106x;
   padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
@@ -436,28 +440,43 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .client-link {
   fill: #afb1b8;
 }
+.client-item:hover,
+.client-item:focus {
+  border-color: var(--accent-color);
+}
 .client-link-svg:hover,
 .client-link-svg:focus {
-  background-color: var(--accent-color);
+  background-color: var(--nav-text-color);
 }
 .client-link-svg:hover .client-link,
 .client-link-svg:focus .client-link {
-  fill: var(--nav-text-color);
+  fill: var(--accent-color);
 }
 /* footer */
 .footer {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color);
   background-color: var(--footer-background-color);
-  padding-bottom: 60px;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 215px;
+}
+.footer-flex-connect {
+  margin-left: 70px;
 }
 .adress {
   display: block;
@@ -475,15 +494,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
+
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
-.footer-svg {
-  margin: 0 auto;
- 
+
 .h3-footer-svg {
   font-weight: 700;
   font-size: 14px;
@@ -491,7 +509,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -500,8 +518,6 @@ img {
   justify-content: center;
 }
 .social-footer-item {
-  display: flex;
-  justify-content: center;
   width: 44px;
   height: 44px;
 }
