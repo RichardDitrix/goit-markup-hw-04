@@ -118,10 +118,11 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .header-svg {
-  fill: var(--header-text-color);
+  fill: currentColor;
   display: flex;
   margin-right: 10px;
 }
