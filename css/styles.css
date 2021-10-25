@@ -255,6 +255,7 @@ img {
   letter-spacing: 0.06em;
 }
 .h3-text-style {
+  color: var(--primary-text-color);
   margin-bottom: 4px;
 }
 .description-text {
@@ -337,7 +338,6 @@ img {
 }
 .team-section {
   background-color: var(--img-background-color);
-  max-width: 1600px;
   margin: 0 auto;
 }
 .duty-team-style {
@@ -465,20 +465,17 @@ img {
 /* footer */
 .footer {
   display: flex;
-  max-width: 1600px;
-  margin: 0 auto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color);
   background-color: var(--footer-background-color);
 }
-.footer-section {
+.footer-container {
   display: flex;
   align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 215px;
 }
 .footer-flex-connect {
   margin-left: 70px;
