@@ -481,12 +481,13 @@ img {
   margin-left: 70px;
 }
 .adress {
+  font-family: Roboto;
+  font-style: normal;
   display: block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
-  font-style: normal;
 }
 .studio-footer {
   font-family: Raleway;
@@ -498,6 +499,8 @@ img {
 }
 
 .footer-link {
+  font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -552,6 +555,7 @@ img {
 .footer-contacts {
   margin-top: 20px;
 }
+
 .footer-items:not(:last-child) {
   margin-bottom: 10px;
 }
