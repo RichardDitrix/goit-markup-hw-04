@@ -401,13 +401,14 @@ margin-bottom: 16px;
 		height: 100%;
 		background-color: rgba(46, 47, 66, 0.16);
 		top: 0;
-
+		transition: opacity 300ms linear, visibility 300ms linear;
 	}
 	.modal {
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%), scale(1);
+		transition: transform 300ms linear;
 		width: 517px;
 		min-height: 794px;
 		background-color: red;
@@ -416,4 +417,12 @@ margin-bottom: 16px;
 		position: absolute;
 		top: 24px;
 		right: 24px;;
+	}
+	.is-hidden {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	}
+	.backdrop.is-hidden .modal {
+		transform: scale: 0;
 	}
