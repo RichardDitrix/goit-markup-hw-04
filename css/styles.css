@@ -187,8 +187,19 @@ color: var(--overlay-dark);
 }
 /*	BODY */
 .heero {
-	background-color: var(--hero-background);
-	padding: 188px 0;
+padding: 188px 0;
+margin: 0 auto;
+display: flex;
+max-width: 1440px;
+border-color: rgba(46, 47, 66, 0.70);
+background-image: linear-gradient(
+      rgba(46, 47, 66, 0.70),
+      rgba(46, 47, 66, 0.70)
+    ),
+url(../images/background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .heero-text {
 	color: var(--white-background);
@@ -435,7 +446,10 @@ margin-bottom: 16px;
   		transition: transform 3s cubic-bezier(0.4, 0, 0.2, 1);
 		width: 408px;
 		min-height: 584px;
-		background-color: red;
+		border-radius: 4px;
+		background: var(--modal-background);
+		box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+
 	}
 	.modal-close-btn {
 		position: absolute;
