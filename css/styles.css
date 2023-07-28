@@ -355,6 +355,41 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-align: center;
+	margin-bottom: 8px;
+}
+.social-list {
+	display: flex;
+	justify-content: center;
+}
+.social-item {
+	width: 40px;
+	height: 40px;
+	
+}
+.social-item:not(:last-child) {
+	margin-right: 24px;
+}
+.svg-link {
+	width: 100%;
+	height: 100%;
+	background-color:var(--primary-blue);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link {
+ fill: var(--background-lite);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-link:hover,
+.svg-link:focus {
+  background-color: var(--pressed-blue);
+}
+.svg-link:hover .social-link,
+.svg-link:focus .social-link {
+  fill: var(--background-lite);
 }
 /* Portfolio-body */
 .rules-description {
