@@ -110,7 +110,8 @@ justify-content: center;
 .btn:focus {
 	background-color: var(--pressed-blue);
 	color: var(--white-background);
-	border: 1px solid transparent 
+	border: 1px solid transparent ;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 	}
 
 .btn-adress {
@@ -326,6 +327,8 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	width: calc((100% - 3*24px)/4);
 	color: var(--box-shadow);
 	border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-our {
 	font-size: 36px;
