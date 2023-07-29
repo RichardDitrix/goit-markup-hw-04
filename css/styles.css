@@ -589,8 +589,16 @@ margin-bottom: 16px;
 	}
 	.modal-close-btn {
 		position: absolute;
-		top: 24px;
-		right: 24px;;
+		top: 14px;
+		right: 25px;
+		display: flex;
+		justify-content: center;
+  		align-items: center;
+  		width: 24px;
+  		height: 24px;
+		border-radius: 50%;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		background-color: var(--accent-color);
 	}
 	.is-hidden {
 		opacity: 0;
@@ -599,4 +607,7 @@ margin-bottom: 16px;
 	}
 	.backdrop.is-hidden .modal {
 		transform: translate(-50%, -50%) scale(0.5);
+	 }
+	 .modal-close-link {
+
 	 }
